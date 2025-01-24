@@ -68,7 +68,7 @@ def parse_arguments():
     )
     
     parser.add_argument(
-        "--FL_type", type=str, default="FRL", help="Type of FL (defualt: FRL)"
+        "--FL_type", type=str, default="FRL_attack", help="Type of FL (defualt: FRL_attack,FRL)"
     )
     
     parser.add_argument(
