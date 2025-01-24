@@ -11,7 +11,7 @@ from utils import *
 
 
 #####################################FRL#########################################
-def FRL_train(tr_loaders, te_loader, val_loader):
+def FRL_attack(tr_loaders, te_loader, val_loader):
     global mal_rank
     print("#########Federated Learning using Rankings############")
     args.conv_type = 'MaskConv'
