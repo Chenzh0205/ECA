@@ -67,19 +67,10 @@ def main():
 
     #Federated Learning
     print("type of FL: ", args.FL_type)
-    if args.FL_type == "FRL":
+    if args.FL_type == "FRL_attack":
         FRL_train(tr_loaders, te_loader, val_loader)
-    elif args.FL_type == "FedAVG":
-        FedAVG(tr_loaders, te_loader)
-    elif args.FL_type == "trimmedMean":
-        Tr_Mean(tr_loaders, te_loader)
-    elif args.FL_type == "Mkrum":
-        Mkrum(tr_loaders, te_loader)
-    else:
-        FedAVG(tr_loaders, te_loader)
-
-
-
+    elif args.FL_type == "FRL":
+        FRL(tr_loaders, te_loader)
 
 
 if __name__ == "__main__":
