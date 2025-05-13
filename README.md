@@ -1,4 +1,4 @@
-# Precise Model Control Attack (PMCA)
+# Edge Control Attack (ECA)
 
 
 ## Getting Started
@@ -23,7 +23,7 @@ git clone https://anonymous.4open.science/r/PMCA-FF43.git
 - II) Change the directory into the project
 
 ```bash
-cd PMCA
+cd ECA
 ```
 
 - III) Install dependencies
